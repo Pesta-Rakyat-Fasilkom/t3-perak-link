@@ -1,9 +1,9 @@
+import { Button, Image, TextField } from '@elements'
+import { Copy, Elipse, LinkIcon, Strip } from '@icons'
 import { type NextPage } from 'next'
 import Head from 'next/head'
-import { Button, Image, TextField } from '@elements'
 import { useEffect, useState } from 'react'
-import { Copy, Elipse, LinkIcon, Strip } from '@icons'
-import { useForm, Controller } from 'react-hook-form'
+import { Controller, useForm } from 'react-hook-form'
 import { toast } from 'react-hot-toast'
 import { api } from '../utils/api'
 
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
                 <div className="relative flex flex-col items-center justify-center rounded-xl border-2 border-black bg-[#F4EFD3] px-2 pt-12 pb-5 md:px-10">
                   <div className="absolute -top-16 rounded-full bg-white">
                     <Image
-                      imageUrl="/logo.png"
+                      imageUrl="/logo.svg"
                       alt="Logo"
                       className="h-[100px] w-[100px]"
                       fit="fill"
