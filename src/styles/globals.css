@@ -41,3 +41,15 @@
     -webkit-text-stroke: 2px black;
   }
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #272b52;
+}
